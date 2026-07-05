@@ -6,6 +6,8 @@ const iconRegistry = {
   ChevronDoubleRightIcon: Icons.ChevronDoubleRightIcon,
   ListBulletIcon: Icons.ListBulletIcon,
   DocumentIcon: Icons.DocumentIcon,
+  PlusIcon: Icons.PlusIcon,
+  MagnifyingGlassIcon: Icons.MagnifyingGlassIcon,
 }
 
 export type IconName = keyof typeof iconRegistry
