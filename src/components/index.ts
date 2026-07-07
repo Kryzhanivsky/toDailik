@@ -1,6 +1,5 @@
 export { MainLayout } from './layouts/main-layout/index.tsx'
 
-export { Sidebar } from './shared/sidebar/index.tsx'
 export { HeadingWithList } from '@/components/shared/heading-with-list/index.tsx'
 export { SideLink, type ISideLinkProps } from './shared/side-link/index.tsx'
 export { Heading, type IHeadingProps } from './shared/heading/index.tsx'
