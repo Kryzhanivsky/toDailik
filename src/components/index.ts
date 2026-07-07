@@ -1,6 +1,8 @@
 export { MainLayout } from './layouts/main-layout/index.tsx'
 
-export { SideLink } from './shared/side-link/index.tsx'
-export { Heading } from './shared/heading/index.tsx'
-export { ColorBox } from './shared/color-box/index.tsx'
-export { TagBtn } from './shared/tag-btn/index.tsx'
+export { HeadingWithList } from '@/components/shared/heading-with-list/index.tsx'
+export { SideLink, type ISideLinkProps } from './shared/side-link/index.tsx'
+export { Heading, type IHeadingProps } from './shared/heading/index.tsx'
+export { ColorBox, type IColorBoxProps } from './shared/color-box/index.tsx'
+export { TagBtn, type ITagBtnProps } from './shared/tag-btn/index.tsx'
+export { Button, type ButtonType } from './shared/button/index.tsx'

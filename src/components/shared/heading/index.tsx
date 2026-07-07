@@ -12,10 +12,7 @@ const headingSizeStyles = {
   6: 'text-xs',
 }
 
-interface IHeadingProps extends React.DetailedHTMLProps<
-  React.HTMLAttributes<HTMLHeadingElement>,
-  HTMLHeadingElement
-> {
+export interface IHeadingProps extends React.ComponentPropsWithoutRef<'hgroup'> {
   level?: HeadingLevel
 }
 
@@ -28,7 +25,7 @@ export const Heading: React.FC<IHeadingProps> = (props) => {
       className={twMerge(
         'font-black text-sm uppercase',
         headingSizeStyles[level],
-        className
+        className,
       )}
       {...other}
     >
