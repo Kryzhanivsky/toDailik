@@ -1,12 +1,9 @@
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
-export const Button: React.FC<
-  React.DetailedHTMLProps<
-    React.ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  >
-> = ({ className, children, ...props }) => {
+export type ButtonType = React.ComponentPropsWithRef<'button'>
+
+export const Button: React.FC<ButtonType> = ({ className, children, ...props }) => {
   return (
     <button
       className={twMerge(
