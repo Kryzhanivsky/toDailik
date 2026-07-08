@@ -8,6 +8,8 @@ const iconRegistry = {
   DocumentIcon: Icons.DocumentIcon,
   PlusIcon: Icons.PlusIcon,
   MagnifyingGlassIcon: Icons.MagnifyingGlassIcon,
+  Cog6ToothIcon: Icons.Cog6ToothIcon,
+  ArrowRightStartOnRectangleIcon: Icons.ArrowRightStartOnRectangleIcon,
 }
 
 export type IconName = keyof typeof iconRegistry
