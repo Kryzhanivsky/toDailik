@@ -1,19 +1,7 @@
 import React from 'react'
 import { Icon } from '@/utils'
 import { ColorBox } from '@/components'
-
-interface ITask {
-  id: number
-  title: string
-  isDone: boolean
-  list: {
-    id: number
-    name: string
-    color: HEXColor
-  }
-  subtasks: { id: number; title: string }[]
-  dueDate: Date
-}
+import type { ITask } from '@/pages/today-page/temp-data.ts'
 
 export interface IListItemProps extends Omit<
   React.ComponentPropsWithRef<'li'>,
